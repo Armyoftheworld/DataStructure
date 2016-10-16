@@ -45,12 +45,36 @@ public class GraphKruskal {
 		});
 	}
 
+	private int find(int[] parent, int v) {
+		while (parent[v] > 0) {
+			v = parent[v];
+		}
+		return v;
+	}
+
+	public void kruskal() {
+		int[] parent = new int[graph.length];//数组的下标为起点，值为终点
+		int sum = 0;
+		int m, n;
+		for (Graph graph : graphs) {
+			m = find(parent, graph.start);
+			n = find(parent, graph.end);
+			if (m != n) {
+				System.out.println("顶点" + graph.start + "到顶点" + graph.end
+						+ "的权重:" + graph.weight);
+				parent[m] = n;
+				sum += graph.weight;
+			}
+		}
+		System.out.println("最小权值为"+sum);
+	}
+
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		GraphKruskal kruskal = new GraphKruskal();
+		kruskal.kruskal();
 	}
 
 	private int[][] initGraph() {
