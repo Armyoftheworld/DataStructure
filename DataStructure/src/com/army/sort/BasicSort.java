@@ -14,7 +14,7 @@ public class BasicSort extends Sort {
 			}
 		}
 		int time = 0;
-		while (max > 1) {
+		while (max > 0) {// 最多几位数
 			max = max / 10;
 			time++;
 		}
@@ -23,7 +23,7 @@ public class BasicSort extends Sort {
 		}
 		for (int i = 0; i < time; i++) {
 			for (int j = 0; j < arr.length; j++) {
-				int index = (arr[j] % (int) Math.pow(10, i + 1)) / (int) Math.pow(10, i);
+				int index = (arr[j] % (int) Math.pow(10, i + 1)) / (int) Math.pow(10, i);// 每次循环分别取个位数、十位数、百位数。。。
 				list.get(index).add(arr[j]);
 			}
 			int k = 0;
