@@ -1,5 +1,10 @@
 package com.army.datastructure;
 
+/**
+ * 最小生成树：普里姆算法
+ * @author dai
+ *
+ */
 public class GraphPrim {
 	public int MAX = 65535;
 	private int[][] graph;

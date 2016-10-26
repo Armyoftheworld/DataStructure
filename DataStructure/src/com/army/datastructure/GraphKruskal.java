@@ -10,6 +10,11 @@ import java.util.function.ToLongFunction;
 
 import com.sun.org.apache.xml.internal.security.encryption.AgreementMethod;
 
+/**
+ * 最小生成树：克鲁斯卡尔算法
+ * @author dai
+ *
+ */
 public class GraphKruskal {
 	public int MAX = 65535;
 	private int[][] graph;

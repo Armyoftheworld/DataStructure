@@ -2,6 +2,11 @@ package com.army.sort;
 
 import java.util.Arrays;
 
+/**
+ * 选择排序
+ * @author dai
+ *
+ */
 public class SelectSort extends Sort {
 
 	public void selectSort(int[] a) {

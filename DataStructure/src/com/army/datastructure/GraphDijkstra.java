@@ -2,6 +2,11 @@ package com.army.datastructure;
 
 import java.util.Arrays;
 
+/**
+ * 最短路径：迪杰斯特拉算法
+ * @author dai
+ *
+ */
 public class GraphDijkstra {
 	public int MAX = 65535;
 	public int[][] graph;

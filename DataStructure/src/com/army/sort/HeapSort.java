@@ -2,6 +2,11 @@ package com.army.sort;
 
 import java.util.Arrays;
 
+/**
+ * 堆排序
+ * @author dai
+ *
+ */
 public class HeapSort extends Sort {
 
 	/**

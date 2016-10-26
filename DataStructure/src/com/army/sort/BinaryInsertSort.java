@@ -2,6 +2,11 @@ package com.army.sort;
 
 import java.util.Arrays;
 
+/**
+ * 二分插入排序
+ * @author dai
+ *
+ */
 public class BinaryInsertSort extends Sort {
 
 	public void binaryInsertSort(int[] a) {

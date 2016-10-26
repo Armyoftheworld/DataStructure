@@ -2,6 +2,11 @@ package com.army.sort;
 
 import java.util.Arrays;
 
+/**
+ * 希尔排序
+ * @author dai
+ *
+ */
 public class ShellSort extends Sort {
 
 	public void shellSort(int[] a) {

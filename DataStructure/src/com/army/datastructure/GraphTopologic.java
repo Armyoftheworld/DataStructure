@@ -2,6 +2,11 @@ package com.army.datastructure;
 
 import java.util.Stack;
 
+/**
+ * 拓扑排序
+ * @author dai
+ *
+ */
 public class GraphTopologic {
 
 	// 边表顶点

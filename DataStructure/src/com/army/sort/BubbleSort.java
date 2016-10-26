@@ -2,6 +2,11 @@ package com.army.sort;
 
 import java.util.Arrays;
 
+/**
+ * 冒泡排序
+ * @author dai
+ *
+ */
 public class BubbleSort extends Sort {
 
 	public void bubbleSort(int[] a) {

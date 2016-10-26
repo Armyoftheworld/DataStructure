@@ -2,6 +2,11 @@ package com.army.sort;
 
 import java.util.Arrays;
 
+/**
+ * 插入排序
+ * @author dai
+ *
+ */
 public class InsertSort extends Sort {
 
 	public void insertSort(int[] a) {
