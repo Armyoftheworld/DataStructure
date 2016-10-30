@@ -3,10 +3,6 @@ package com.army.datastructure;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.function.Function;
-import java.util.function.ToDoubleFunction;
-import java.util.function.ToIntFunction;
-import java.util.function.ToLongFunction;
 
 import com.sun.org.apache.xml.internal.security.encryption.AgreementMethod;
 
