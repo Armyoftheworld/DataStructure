@@ -14,7 +14,7 @@ public class EightQueen {
 	}
 
 	private int num = 0;
-	private int MAXQUEEN = 8;
+	private int MAXQUEEN = 4;
 	private int[] col = new int[MAXQUEEN];
 
 	public void queen(int n) {
